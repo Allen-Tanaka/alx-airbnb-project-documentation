@@ -1,0 +1,13 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="Page-1" id="ALnO9fctPsE89hLFfdBb">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="adT-7mdtzxWv8ek32WmY-1" value="+-----------------------------+&#xa;|  User Initiates Booking     |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;|  Is User Logged In?         |&#xa;+-------------+---------------+&#xa;              |&#xa;     +--------+--------+&#xa;     |                 |&#xa;    Yes               No&#xa;     |                 |&#xa;     v                 v&#xa;+-----------------+    +--------------------------+&#xa;| Check Property  |    | Redirect to Login Page  |&#xa;|   Availability  |    +--------------------------+&#xa;+--------+--------+&#xa;         |&#xa;         v&#xa;+-----------------------------+&#xa;| User Enters Booking Details |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;|  Calculate Total Cost       |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;|     Process Payment         |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;|   Store Booking in DB       |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;| Send Booking Confirmation   |&#xa;+-------------+---------------+&#xa;              |&#xa;              v&#xa;+-----------------------------+&#xa;|     Booking Completed       |&#xa;+-----------------------------+" style="text;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="130" y="60" width="280" height="710" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
