@@ -33,4 +33,4 @@ This document outlines the core features and functionalities supported by the Ai
 ## 🖼️ Diagram
 See the visual representation of the backend system below.
 
-![Backend Features Diagram](./airbnb-backend-features.png)
+![Backend Features Diagram](./airbnb-features.png)
